@@ -13,7 +13,7 @@ class Extend{
 
     //获取统计数量
     public function GetStats($key = 'all'){
-        $this->FileCache->get($key);
+        return $this->FileCache->get($key);
     }
 
     //增加统计数量
