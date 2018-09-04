@@ -1,0 +1,21 @@
+{
+    "name": "lyapi/visit-stats",
+    "description": "LyApi expansion library: statistics access num",
+    "type": "library",
+    "require": {
+        "lyapi/lyapi-core": "dev-master"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "xiaozhuox",
+            "email": "mrxzx@wwsg18.top"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "LyApi\\extend\\VisitStats\\": "src"
+        }
+    },
+    "minimum-stability": "dev"
+}
